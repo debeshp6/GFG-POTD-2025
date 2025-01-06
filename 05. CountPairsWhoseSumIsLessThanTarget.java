@@ -1,7 +1,6 @@
 // User function Template for Java
 class Solution {
     int countPairs(int arr[], int target) {
-        
         Arrays.sort(arr);
         int n = arr.length;
         int i = 0, j = n-1;
