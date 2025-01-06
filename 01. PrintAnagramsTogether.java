@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
     public ArrayList<ArrayList<String>> anagrams(String[] arr) {
         
         HashMap<String, ArrayList<String>> map = new HashMap<>();
