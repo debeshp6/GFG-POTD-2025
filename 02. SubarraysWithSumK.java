@@ -1,4 +1,4 @@
-// User function Template for Java
+// User function Template for Java 
 class Solution {
     public int countSubarrays(int arr[], int k) {
         
