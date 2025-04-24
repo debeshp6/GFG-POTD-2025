@@ -1,0 +1,17 @@
+// User function Template for Java
+
+class Solution {
+    public int getSingle(int[] arr) {
+        
+        Map<Integer,Integer> map=new HashMap<>();
+        for(int num:arr) {
+            map.put(num,map.getOrDefault(num,0)+1);
+        }
+        
+        for(Map.Entry<Integer,Integer> mp:map.entrySet()) {
+            if(mp.getValue() == 1)
+                return mp.getKey();
+        }
+        return -1;
+    }
+}
